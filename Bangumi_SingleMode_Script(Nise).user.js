@@ -15,7 +15,7 @@
     if (title.indexOf('Bangumi') != -1){
         var object2 = document.getElementById('columnHomeB');
         if (object2 != null){
-            object2.parentNode.removeChild(object2);
+            object2.style = 'display:none;'
         }
     }
 })();
